@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    min-height: 10vh;
+    
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+display: flex;
+justify-content: space-between;
+}
+
+.imagecontainer,img{
+ width: 300px;
+ height: 300px;
+ 
+ 
+}
+
+.about_section{
+    margin-top: 50px;
+}
+
+.about_section h1{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.top_section,h1{
+
+    color: darkorange;
+}
